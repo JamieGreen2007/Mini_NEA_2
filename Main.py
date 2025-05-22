@@ -7,9 +7,9 @@ pygame.init()
 # Create the Screen.
 screen = pygame.display.set_mode((500, 1080), pygame.RESIZABLE)
 
-# Set max frames to 60
+# Set max frames to 70
 clock = pygame.time.Clock()
-fps = 60
+fps = 70
 
 text_font = pygame.font.Font(None, 150)
 button_text_font = pygame.font.Font(None, 50)
