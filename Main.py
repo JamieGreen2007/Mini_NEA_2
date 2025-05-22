@@ -90,7 +90,7 @@ class Player:
         self.velocity = pygame.Vector2(0, 0)
         self.speed = 8
         self.jump_power = -20
-        self.gravity = 1.0
+        self.gravity = 1.5
         self.on_ground = False
         
     def apply_gravity(self):
